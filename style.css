@@ -465,11 +465,24 @@ body.light-mode .video-bg:before {
   border-radius: 14px;
   padding: 20px 40px;
 }
+
+.content-wrapper-header-airtel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #fe0000;
+  border-radius: 14px;
+  padding: 20px 40px;
+}
 @media screen and (max-width: 415px) {
   .content-wrapper-header {
     padding: 20px;
   }
   .content-wrapper-header-glo {
+    padding: 20px;
+  }
+  .content-wrapper-header-airtel {
     padding: 20px;
   }
 }
@@ -530,6 +543,18 @@ body.light-mode .video-bg:before {
   border: none;
   padding: 8px 26px;
   color: #fff;
+  border-radius: 20px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.content-button-airtel {
+  background-color: #fff;
+  border: none;
+  padding: 8px 26px;
+  color: #fe0000;
   border-radius: 20px;
   margin-top: 16px;
   cursor: pointer;
@@ -659,6 +684,12 @@ body.light-mode .video-bg:before {
   background: #00a85a;
   color: #fff;
   border: 1px solid rgb(0 168 90);
+}
+
+.status-button.open-airtel {
+  background: #fe0000;
+  color: #fff;
+  border: 1px solid #fe0000;
 }
 
 .status-button:not(.open):hover {
