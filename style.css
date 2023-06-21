@@ -475,6 +475,16 @@ body.light-mode .video-bg:before {
   border-radius: 14px;
   padding: 20px 40px;
 }
+
+.content-wrapper-header-9mobile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #030303;
+  border-radius: 14px;
+  padding: 20px 40px;
+}
 @media screen and (max-width: 415px) {
   .content-wrapper-header {
     padding: 20px;
@@ -485,7 +495,15 @@ body.light-mode .video-bg:before {
   .content-wrapper-header-airtel {
     padding: 20px;
   }
+  .content-wrapper-header-9mobile {
+    padding: 20px;
+  }
+  .mobile{
+    font-size: 11px;
+
+  }
 }
+
 .content-wrapper.overlay {
   pointer-events: none;
   transition: 0.3s;
@@ -533,6 +551,8 @@ body.light-mode .video-bg:before {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+
 
 .content-wrapper-context {
   max-width: 350px;
